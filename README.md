@@ -23,6 +23,9 @@ This repo contains a runnable demo that shows how to invoke a Svelte component f
  - make sure your app declares its dependency on your library, otherwise ember-auto-import won't be able to import it. 
  - It's a good idea for the library to declare a peerDependency on `svelte` so that it will definitely share the app's copy.
  
+## Inspiration
+A Big Thanks to [Edward Faulkner](https://github.com/ef4) for the inspiration. This project is based on the [ember-react-example](https://github.com/ef4/ember-react-example) created by him.
+
 ## References
 - [svelte-loader](https://github.com/sveltejs/svelte-loader)
 - [Svlete client-side component API](https://svelte.dev/docs#run-time-client-side-component-api)
